@@ -2,15 +2,13 @@
 <h3>Part of IBM-Granite Hackathon 2025 ⚡ </h3>
 <div>
   <img 
-    src="https://github.com/user-attachments/assets/f63ec699-e8c7-445f-b8f6-e62e49177a5c" 
+    src="https://github.com/user-attachments/assets/c9719f5d-99f3-489e-9285-dba22da2c526" 
     alt="VerifyIt Logo" 
-    style="height: 200px; width: 200px; float: left;"
-  > 
-  <img 
-    src="https://github.com/user-attachments/assets/279a46ca-4b6c-4ba2-986b-f6e4b2ac14b7" 
-    alt="Google Chrome Built-in AI" 
-    style="height: 200px; width: 400px; float: right"
-  > 
+    style="height: 600px; width: 600px; float: left;"
+  >
+
+
+
 </div>
 
 ---
@@ -35,7 +33,7 @@ With its distraction-free UI, VerifyIt integrates effortlessly into your browsin
 
 - **Custom Search API**
 - **Programmable Search Engine by Google**
-- **Gemini AI** (fast infering gemini-1.5-flash)
+- **granite3.1-moe** ( long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage. )
   
 ## **Frontend**
 - HTML5 & Bootstrap CSS: Responsive, modern design
@@ -45,7 +43,7 @@ With its distraction-free UI, VerifyIt integrates effortlessly into your browsin
 - Flask API: Robust server-side processing and to handle asynchronous requests
 - Google Custom Search API: Comprehensive information retrieval
 - Crawl4AI: Intelligent web scraping framework
-- Gemini AI: Advanced content truthfulness evaluation, with Customized prompt template
+- Granite : Advanced content truthfulness evaluation, with Customized prompt template
 - Chrome's Local Storage: To ensure the history of the user's VerifyIt searches are stored and are accessible
 
 ### 🔧 Unique Technical Innovations
@@ -94,7 +92,6 @@ Check out our **live demo video** to see VerifyIt in action:
      ```env
      SEARCH_ID="your_search_id"
      CUSTOM_API="your_custom_api_key"
-     GEMINI="your_gemini_api_key"
      ```
    - Ensure `.env` is added to `.gitignore` to keep your keys private:
      ```bash
