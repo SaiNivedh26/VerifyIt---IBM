@@ -26,6 +26,7 @@ With its distraction-free UI, VerifyIt integrates effortlessly into your browsin
 - **Clean, Minimalist Interface** : Simple, clean, and intuitive extension design built based on User preference
 - **Comprehensive Analysis**: Ranks sources by credibility and provides a Trust scores, source credibility, detailed analysis 
 - **Privacy-First Approach**: Ensures your queries remain private and secure. And comes with access to history of all recent fact checks, for instant recap
+- **Multilingual Article Analysis** : For Supported languages by Granite model. this Includes English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified)
 
 ---
 ### Building Steps ⚡
@@ -58,12 +59,6 @@ With its distraction-free UI, VerifyIt integrates effortlessly into your browsin
 ![Target Input is taken by the backend](https://github.com/user-attachments/assets/7c6a9703-9d60-45ac-b853-47c6c05a6bf9)
 
 ---
-
-## **Demo Video**
-Check out our **live demo video** to see VerifyIt in action:  
-
-[![images](https://github.com/thespectacular314/VerifyIt---Chrome-Extension/blob/main/Animation%20-%201733411894860.gif)](https://www.youtube.com/watch?v=g_NnTCLrM20)
-
 
 ---
 
