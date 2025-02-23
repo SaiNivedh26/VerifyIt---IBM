@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Real Time Fact Checker",
+  "description": "Fact check any content",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://127.0.0.1:5003/*"
+  ],
+  "background": {
+    "service_worker": "static/background.js"
+  },
+  "action": {
+    "default_popup": "/templates/pop-up.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["static/content.js"]
+    }
+  ]
+}
